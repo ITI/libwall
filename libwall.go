@@ -19,8 +19,8 @@ import (
 // (sum(data, id, len(data), data)) % 256
 
 const (
-    ON byte = 1
-    OFF byte = 0
+    ON byte = 0x01
+    OFF byte = 0x00
     ALL byte = 0xfe
 )
 
